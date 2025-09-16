@@ -25,12 +25,18 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: '18'
           cache: npm
+      - name: Debug npm and node versions
+        run: |
+          node --version
+          npm --version
+          ls -la package*.json
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Install dependencies
-        run: npm ci
+        run: |
+          npm ci || (echo "npm ci failed, trying npm install..." && npm install)
       - name: Build with Docusaurus
         run: npm run build
       - name: Upload artifact
