@@ -11,8 +11,8 @@ This comprehensive guide covers key concepts and practical tools for uncovering 
 2. [Numerical-Numerical Analysis](#2-numerical-numerical-analysis)
 3. [Numerical-Categorical Analysis](#3-numerical-categorical-analysis)
 4. [Categorical-Categorical Analysis](#4-categorical-categorical-analysis)
-5. [Pair Plots](#5-pair-plots)
-6. [Line Plots](#6-line-plots)
+5. [Pair Plots](#5-pair-plots--comprehensive-relationship-mapping)
+6. [Line Plots](#6-line-plots--time-series-and-trend-analysis)
 7. [Best Practices & Tips](#7-best-practices--tips)
 8. [Conclusion](#8-conclusion)
 
