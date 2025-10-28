@@ -27,7 +27,7 @@ The closed form method provides an exact mathematical solution without requiring
 #### Key Characteristics:
 - **No differentiation and integration** required
 - **Direct formula** approach
-- **Scikit-learn uses this method** called **Ordinary Least Squares (OLS)**
+- **Scikit-learn uses this method** called **Ordinary Least Squares**
 
 #### Mathematical Formulas:
 
